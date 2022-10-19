@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+header {
+    background-color: #1f2937;
+    color: #fff;
+    width: 100%;
+    padding-bottom: 50px;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+#nav .nav-brand h1 {
+    font-size: 1.5em;
+    padding: .5em 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+#nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 41em;
+}
+#nav ul li {
+    padding: 1em 1.5em;
+    list-style-type: none;
+}
+#nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav ul li a:hover {
+    content: "";
+    border-bottom: 2px solid #fff;
+
+}
+#nav ul li a:active {
+    color: rgb(66, 122, 225);
+}
+
+/***** Hero ****/
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3em 2em;
+    padding: 0 1em;
+
+}
+
+.hero .hero-text {
+    /* border: 2px solid yellow; */
+    margin-top: -5em;
+    padding: 2em 2em;
+}
+.hero .hero-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    padding: 0 .3em;
+}
+
+.hero .hero-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    padding: .4em;
+}
+
+.hero-text .hero-caption p {
+    margin: .1em 0;
+    padding: 10px 7px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+a {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    
+}
+.call-action {
+    padding: 20px 7px;
+}
+.call-action a {
+    padding: .7em .9em;
+    text-decoration: none;
+    border-radius: 10px;
+    /* background-color: #3882f6; */
+    background-color: #0078d4;
+    font-weight: 700;
+    margin: 0 0;
+}
+
+.call-action a:hover {
+    /* background-color: #0367b4; */
+    background-color: #203a61;
+    border: 5px solid #0078d4;
+}
+
+.mlsa-logo-atu {
+    /* border: 20px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-left: 2em ;
+    padding: 1em;
+}
+.mlsa-logo-atu .atu-logo {
+    width: 70%;
+    margin-top: 30px;
+}
+.mlsa-logo-atu .mlsa-logo {
+    width: 110%;
+}
+
+/**** Header Media Queries *****/
+
+/* @media only screen and (max-width: 600px) {
+    #nav {
+        display: flex;
+        padding: 2em;
+        border: 1px solid red;
+    }
+
+    .nav-brand h1 {
+        font-size: 2em;
+        padding: 10em;
+        
+
+    }
+
+    header {
+        width: 100%;
+
+    }
+} */
+
+
+/**** Profile Section  ***/
+
+#profile {
+    /* background-color: #0367b4; */
+    background-color: #50e6ff;
+    padding: 4em 5em;
+    
+}
+
+#profile .my-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    
+}
+
+.my-profile img {
+    width: 500px;
+    margin: 0 2.1em;
+    border-radius: 30px;
+    border: 10px groove rgba(146, 58, 212, 0.8);
+}
+
+.profile-txt .text-bg {
+    background-color: #0078d4;
+    padding: 3em;
+    border-radius: 10px;
+    border: 10px solid rgba(224, 212, 88, 1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-txt p {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.profile-txt p b {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+/****   Profile Media Queries   ****/
+
+#events {
+    background-color: rgba(146, 199, 138, 0.31);
+    padding: 4em;
+    width: 100%;
+}
+
+.collasped-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.row-events h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4em;
+    padding: 1em;
+    text-align: center;
+}
+
+.flyer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    /* margin: 20px 20px; */
+}
+
+.flyer-card img {
+    width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-content {
+    width: 400px;
+    background-color: rgb(41, 80, 255);
+    border-radius: 0 0 15px 15px;
+}
+
+.card-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+    padding: .4em 1.5em;
+    color: #fff;
+    
+}
+
+.card-content p {
+    padding: .3em 2em;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #fff;
+    font-weight: 60;
+}
+
+.flyer-card .card-btn {
+    /* border: 1px solid red; */
+    padding: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flyer-card .card-btn a {
+    text-align: center;
+    padding: .8em 4em;
+    background-color: #50E6FF;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #000;
+}
+
+
+
+
+
+
+
