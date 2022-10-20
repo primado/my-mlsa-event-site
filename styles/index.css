@@ -442,6 +442,7 @@ footer {
     padding: 2em;
     margin: 1em 8em;
     border-radius: 20px;
+    border-top: 3px solid #fff;
 }
 
 .first-part-apply h2 {
