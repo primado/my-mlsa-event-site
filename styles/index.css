@@ -429,7 +429,6 @@ footer {
     /* background-color: #166df9; */
     border: 2px solid #fff;
     border-radius: 10px;
-    display: block;
     background-color: #3882f6;
     
 }
@@ -439,16 +438,19 @@ footer {
 }
 
 .first-part-apply 
-.website-url p a {
+.website-url a {
     font-size: 1.4em;
     text-decoration: none;
-    padding: 5em 1.8em;
+    padding: 1em 1em;
     font-family: 500;
+    display: block;
 }
 
 .first-part-apply 
-.website-url p a:hover {
-    color: #fff;
+.website-url a:hover {
+    color: #000 !important;
+    font-weight: 900;
+    
 
 }
 
