@@ -348,7 +348,107 @@ a {
 
 }
 
+/**** Memories IMG Media Queries  ****/
 
 
 
+
+/**** Footer Section ****/
+
+footer {
+    background-color: #1f2937;
+    padding: 4em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-part-socials {
+    /* border: 2px solid #fff; */
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-part-socials h2 {
+    font-size: 2.7em;
+    color: #fff; 
+}
+
+.media-handles ul {
+    list-style-type: none;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.media-handles ul > li {
+    line-height: 1.8em;
+    padding: .5em;
+    border-right: .2em solid #0078d4;
+    display: block;
+    
+}
+
+.media-handles ul > li:last-child {
+    border: none;
+}
+
+.media-handles ul li a {
+   display: block;
+   /* border: 1px solid red; */
+   padding: .5em 1em;
+   font-size: 1.3em;
+}
+
+
+.media-handles li i {
+    color: #fff;
+    padding: 0 .3em;
+    font-size: 1.5em;
+}
+
+.first-part-apply {
+    padding: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 2em;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.first-part-apply h2 {
+    font-size: 1.7em;
+    padding: .8em .8em;
+}
+
+.first-part-apply .website-url {
+    /* background-color: #166df9; */
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: block;
+    background-color: #3882f6;
+    
+}
+
+.first-part-apply .website-url:hover {
+    background-color: #1268f2;
+}
+
+.first-part-apply 
+.website-url p a {
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 5em 1.8em;
+    font-family: 500;
+}
+
+.first-part-apply 
+.website-url p a:hover {
+    color: #fff;
+
+}
 
