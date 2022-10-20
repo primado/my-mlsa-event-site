@@ -512,6 +512,15 @@ footer {
     font-family: 'Poppins', sans-serif;
     border-radius: 10px 10px 0 0;
 }
+
+.developers h1 {
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: 900;
+}
+
 .collasped-devs .dev-flex {
     display: flex;
     justify-content: center;
@@ -538,6 +547,12 @@ footer {
    height: 9.8em;
 }
 
+.dev-flex .dev-card-body h2 {
+    font-size: 1.5em;
+    padding: .5em;
+
+}
+
 .dev-flex .dev-two {
     display: flex;
     flex-direction: column;
@@ -561,10 +576,11 @@ footer {
 }
 
 .dev-flex .dev-card-body a:hover {
-    background-color: #3882f6;
+    background-color: #1c66df;
 }
 
 .dev-flex .dev-card-body a .fa-brands {
     color: #fff;
     font-size: 1em;
 }
+
