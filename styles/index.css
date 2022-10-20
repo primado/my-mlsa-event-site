@@ -58,7 +58,7 @@ header {
     color: rgb(66, 122, 225);
 }
 
-/***** Hero ****/
+/**************** Hero ****************/
 .hero {
     display: flex;
     justify-content: center;
@@ -159,7 +159,7 @@ a {
 } */
 
 
-/**** Profile Section  ***/
+/******************* Profile Section  ********************/
 
 #profile {
     /* background-color: #0367b4; */
@@ -252,8 +252,9 @@ a {
 
 .card-content {
     width: 400px;
-    background-color: rgb(41, 80, 255);
+    /* background-color: rgb(41, 80, 255); */
     border-radius: 0 0 15px 15px;
+    background-color: hsl(223, 47%, 23%);
 }
 
 .card-content h2 {
