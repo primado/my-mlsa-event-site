@@ -24,8 +24,14 @@ header {
     padding: .5em 1em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-
+    color: white;
 }
+
+/* #nav .fa-rectangle-code {
+    color: #fff;
+    background-color: green;
+} */
+
 #nav ul {
     display: flex;
     justify-content: flex-end;
@@ -357,13 +363,13 @@ a {
 
 footer {
     background-color: #1f2937;
-    padding: 4em;
+    padding: 5em 2em;
     font-family: 'Poppins', sans-serif;
 }
 
 .first-part-socials {
     /* border: 2px solid #fff; */
-    padding: 4em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,8 +377,9 @@ footer {
 }
 
 .first-part-socials h2 {
-    font-size: 2.7em;
+    font-size: 2.5em;
     color: #fff; 
+    padding: 1em;
 }
 
 .media-handles ul {
@@ -380,6 +387,7 @@ footer {
     padding: 1.5em;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .media-handles ul > li {
@@ -394,13 +402,26 @@ footer {
     border: none;
 }
 
+
 .media-handles ul li a {
    display: block;
    /* border: 1px solid red; */
    padding: .5em 1em;
    font-size: 1.3em;
+   text-align: center;
 }
 
+.media-handles ul li a:hover {
+    color: #3882f6;
+}
+
+.media-handles ul li a:visited {
+    color: #ffc623;
+}
+
+.media-handles ul li a:active {
+    color: #50E6FF;
+}
 
 .media-handles li i {
     color: #fff;
@@ -408,15 +429,17 @@ footer {
     font-size: 1.5em;
 }
 
+
+
 .first-part-apply {
-    padding: 2em;
+    padding: 1em;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
     padding: 2em;
-    margin: 0;
+    margin: 1em 8em;
     border-radius: 20px;
 }
 
@@ -441,7 +464,7 @@ footer {
 .website-url a {
     font-size: 1.4em;
     text-decoration: none;
-    padding: 1em 1em;
+    padding: .6em 1em;
     font-family: 500;
     display: block;
 }
@@ -450,7 +473,5 @@ footer {
 .website-url a:hover {
     color: #000 !important;
     font-weight: 900;
-    
-
 }
 
