@@ -402,7 +402,7 @@ a {
 .profile-txt .text-bg {
     background-color: #0078d4;
     padding: 3em;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 10px solid rgba(224, 212, 88, 1);
     font-family: 'Poppins', sans-serif;
 }
@@ -506,8 +506,7 @@ a {
 
 
 
-
-/****   Events Media Queries   ****/
+/****   Events CSS    ****/
 
 #events {
     background-color: rgba(146, 199, 138, 0.31);
@@ -637,6 +636,55 @@ a {
 
 /******** End of Events 600px Media Quesries ****/
 
+/************* Events Section @300px max-width ******/
+
+@media only screen and (max-width: 300px) {
+
+    .row-events h1 {
+        font-size: 1.5em;
+        margin-top: .9em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .flyer-card img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .card-content {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .card-content h2 {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    .card-content p {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .flyer-card .card-btn {
+        padding: 1.2em 5em;
+    }
+
+    .flyer-card .card-btn a {
+        text-align: center;
+        padding: .5em 2.3em;
+        font-size: .99em;
+        font-weight: 900;
+    }
+
+}
+
+/************ End of Events @300px max-width media queries *******/
+
+
+
 /******** Memeories Section  ************/
 #memories-img {
     padding: 4.5em 2em;
@@ -724,8 +772,33 @@ a {
         border-radius: 20px;
         text-align: center;
     }
-
 }
+/******** End of Memories @600 max-width media queries *****/
+
+/******** Memories @300 max-width media queries *****/
+
+@media only screen and (max-width: 300px) {
+
+    #memories-img .about-quote {
+        padding: 1.03em;
+    }
+
+    #memories-img 
+    .about-quote 
+    .quote-main > p {
+        font-size: 1em;
+        line-height: 1.26em;
+    }
+
+    #memories-img 
+    .about-quote 
+    .quote-main > small {
+        font-size: 1.3em;
+    }
+}
+/****** End of Memeries @300px max-width media queries ****/
+
+
 
 
 /**** Footer Section ****/
