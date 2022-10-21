@@ -446,10 +446,6 @@ a {
         object-fit: cover;
     }
 
-    /* .my-profile {
-        padding: 2em;
-    } */
-
     .profile-txt {
         max-width: 385px;
         display: block;
@@ -472,6 +468,41 @@ a {
 
 /********** End of Profile 600px media queries ******/
 
+/********* Profle @300 max-width  Media queries  ******/
+
+@media only screen and (max-width: 300px) {
+
+    #profile h1 {
+        font-size: 2.5em;
+        font-weight: 900;
+
+    }
+
+    .my-profile img {
+        max-width: 210px;
+        display: block;
+        object-fit: cover;
+        margin: 0 2.1em
+    }
+
+    .profile-txt .text-bg {
+        padding: 1em;
+    }
+
+    .profile-txt p {
+        color: #fff;
+        font-size: 1em;
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    .profile-txt p b {
+        font-size: 1.3em;
+    }
+
+}
+
+/****** End of Profile @300 media queries  ******/
 
 
 
