@@ -163,6 +163,28 @@ a {
     max-width: 110%;
 }
 
+/* animated logo */
+@keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+}
+
+.mlsa-logo.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* animated logo media queries */
+@media only screen and (max-width: 600px) {
+    .mlsa-logo.animated {
+        animation: none;
+    }
+}
+
 /**** Header Media Queries *****/
 
 @media only screen and (max-width:600px) {
