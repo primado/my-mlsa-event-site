@@ -37,7 +37,7 @@ header {
 }
 
 #nav .nav-brand h1 .ambassador {
-    font-size: 2em;
+    font-size: 2.3em;
     padding-left: .5em;
     line-height: 1.5em;
 }
@@ -61,7 +61,7 @@ header {
     justify-content: flex-end;
     align-items: flex-end;
     padding-left: 23em;
-    flex: .8 .2 .5em;
+    /* flex: .8 .2 .5em; */
 }
 #nav ul li {
     padding: 1em 1.5em;
@@ -83,6 +83,7 @@ header {
 #nav ul li a:active {
     color: rgb(66, 122, 225);
 }
+
 
 /**************** Hero ****************/
 .hero {
@@ -164,25 +165,117 @@ a {
 
 /**** Header Media Queries *****/
 
-/* @media only screen and (max-width: 600px) {
-    #nav {
-        display: flex;
-        padding: 2em;
-        border: 1px solid red;
-    }
-
-    .nav-brand h1 {
-        font-size: 2em;
-        padding: 10em;
-        
-
-    }
-
+@media only screen and (max-width:600px) {
     header {
         width: 100%;
+    }
+
+    #nav {
+        display: flex;
+        padding: 1em;
+    }
+
+    #nav .nav-brand h1 {
+        font-size: 1.3em;
+        /* padding: 0 0em; */
+    }
+
+    #nav .nav-brand h1 .ambassador {
+        font-size: 2em;
+        padding-left: .1em;
 
     }
-} */
+
+    .nav-brand .nav-link {
+        font-size: 1em;
+    }
+
+    #nav ul {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: .7em .7em .5em 8em;
+        flex-direction: column;
+
+    }
+
+    #nav ul li {
+        padding: .8em;
+        list-style-type: none;
+    }
+
+    #nav ul li a {
+        font-size: 1.2em;
+    }
+
+    /********** End of Nav Bar *******/
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        border: 1px solid #fff;
+
+    }
+
+    .hero .hero-text  {
+        margin-top: -2.5em;
+        padding: 1.2em;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 2.9em;
+        font-weight: 700;
+        line-height: 1.25em;
+        text-align: left;
+
+    }
+
+    .hero .hero-text h2 {
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .hero-text .hero-caption p {
+        margin: .05em;
+        line-height: 1.6em;
+        text-align: left;
+    }
+
+    a {
+        font-size: 1.25em;
+    }
+
+    .call-action {
+        padding: 1em 1em;
+    }
+
+    .call-action a {
+        padding: .7em 2em;
+    }
+
+    .mlsa-logo-atu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 1.8em;
+        padding-top: -2em;
+    }
+
+    .mlsa-logo-atu .mlsa-logo {
+        max-width: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .mlsa-logo-atu .atu-logo {
+        max-width: 160px;
+    }
+}
+/******** End of Media Queries 600px ********/
 
 
 /******************* Profile Section  ********************/
@@ -237,6 +330,14 @@ a {
 }
 
 
+/************ Profile Media Queries *******/
+
+@media only screen and (max-width:600px) {
+    
+}
+
+
+
 /****   Profile Media Queries   ****/
 
 #events {
@@ -274,6 +375,10 @@ a {
 .flyer-card img {
     width: 400px;
     border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+
 }
 
 .card-content {
@@ -351,6 +456,10 @@ a {
     height: auto;
     margin: 1.5em;
     border: 10px solid #ffc623;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+
 }
 
 #memories-img .about-quote {
@@ -532,6 +641,10 @@ footer {
 .dev-flex img {
     width: 300px;
     margin-bottom: -.4em;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
 
 }
 
@@ -545,6 +658,7 @@ footer {
    background-color: hsl(225, 100%, 94%);
    text-align: center;
    height: 9.8em;
+   border-radius: 0 0 15px 15px;
 }
 
 .dev-flex .dev-card-body h2 {
