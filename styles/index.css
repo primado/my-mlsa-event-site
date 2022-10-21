@@ -358,9 +358,9 @@ a {
 
     .mlsa-logo-atu .mlsa-logo {
         max-width: 80%;
+    }
 
 }
-
 /*********** End of Header @300px Media Queries ******/
 
 
@@ -918,6 +918,8 @@ footer {
 
 /******* End of Socail Handles *****/
 
+/****** Footer Media Queries *****/
+
 @media only screen and (max-width: 600px) {
 
 
@@ -983,8 +985,52 @@ footer {
         display: block;
         text-align: center;
     } 
-
 }
+/********** End of Footer @600 media queries *****/
+
+/****** Footer @300px max-width media queries  ******/
+
+@media only screen and (max-width: 300px) {
+    
+    .first-part-socials h2 {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    .media-handles ul {
+        /* border: 1px solid red; */
+        padding-left: 8em;
+    }
+
+    .media-handles ul li a {
+        line-height: .5em;
+        padding: .5em .5em;
+    }
+
+    .media-handles li i {
+        font-size: 1.23em;
+    }
+
+    .first-part-apply {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+    }
+
+    .first-part-apply h2 {
+        font-size: .91em;
+        font-weight: 500;
+    }
+
+    .first-part-apply 
+    .website-url a {
+        font-size: .99em;
+        padding: .5em 1.1em;
+    }
+}
+/****** End of Footer @300px max-width media queries *****/
 
 
 
@@ -1020,7 +1066,6 @@ footer {
     display: block;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
-
 }
 
 .dev-flex .dev-one {
@@ -1045,7 +1090,6 @@ footer {
 .dev-flex .dev-two {
     display: flex;
     flex-direction: column;
-    
 }
 
 .dev-btn {
@@ -1072,9 +1116,8 @@ footer {
     color: #fff;
     font-size: 1em;
 }
-
-
 /*********End  Developers Section ************/
+
 
 /******* Devlopers media queries *************/
 
@@ -1093,6 +1136,6 @@ footer {
         object-fit: cover; 
         display: block;
     }
+} 
 
-}
-
+/******** 
