@@ -25,8 +25,6 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     color: white;
-    
-    
 }
 
 .nav-brand-flex {
@@ -388,6 +386,43 @@ a {
 }
 /*********** End of Header @300px Media Queries ******/
 
+/******** Header @390px media queries  *******/
+
+@media only screen and (max-width: 390px) {
+
+    #nav .nav-brand h1 {
+        font-size: 1.3em;
+        padding: .3em .8em;
+    }
+
+    #nav ul {
+        padding-left: 5em;
+    }
+
+    .hero .hero-text h1 {
+        font-size: 2.3em;
+        padding-top: .5em;
+    }
+
+    .mlsa-logo-atu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .mlsa-logo-atu .mlsa-logo {
+        margin-top: -1.9em;
+    }
+
+    .mlsa-logo-atu .atu-logo {
+        margin-top: .9em;
+    }
+}
+/********* End of Header 390px media queries ******/
+
+
 
 
 /******************* Profile Section  ********************/
@@ -526,8 +561,35 @@ a {
     }
 
 }
-
 /****** End of Profile @300 media queries  ******/
+
+/******* Profile @390 media qeries *****/
+
+@media only screen and (max-width:390px) {
+
+    #profile h1 {
+        font-size: 2.3em;
+    }
+
+    .my-profile img {
+        max-width: 250px;
+        display: block;
+        object-fit: cover;
+        
+    }
+
+    .profile-txt .text-bg {
+        padding: 1.7em;
+    }
+
+    .profile-txt p {
+        font-size: 1.23em;
+    }
+
+    .profile-txt p b {
+        font-size: 1.25em;
+    }
+} 
 
 
 
