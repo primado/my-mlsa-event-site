@@ -766,9 +766,34 @@ a {
         font-weight: 900;
     }
 
-}
+} /************ End of Events @300px max-width media queries *******/
 
-/************ End of Events @300px max-width media queries *******/
+/****** Events @390 media queries *****/
+
+@media only screen and  (max-width: 390px) {
+
+    .row-events h1 {
+        font-size: 1.55em;
+        padding: 1.3em ;
+    }
+
+    .flyer-card img {
+        max-width: 270px;
+    }
+
+    .card-content {
+        max-width: 270px;
+        height: auto;
+    }
+
+    .card-content p {
+        padding: .3em .5em;
+    }
+
+    .flyer-card .card-btn a {
+        padding: 1em;
+    }
+}
 
 
 
@@ -778,7 +803,6 @@ a {
     /* border: 3px solid red; */
     background-color: #76a0f4;
     width: 100%;
-
 }
 
 .admin-img {
@@ -787,7 +811,7 @@ a {
     align-items: center;
 }
 
-.admin-img img{
+.admin-img img {
     width: 390px;
     height: auto;
     margin: 1.5em;
@@ -796,7 +820,6 @@ a {
     display: block;
     object-fit: cover;
     border-radius: 20px;
-
 }
 
 #memories-img .about-quote {
@@ -885,7 +908,19 @@ a {
 }
 /****** End of Memeries @300px max-width media queries ****/
 
+/****** Memeries @390 median queries ****/
 
+@media only screen and (max-width: 390px) {
+
+    .admin-img img {
+        max-width: 280px;
+    }
+
+    #memories-img .about-quote {
+        padding: 1.2em;
+    }
+
+}
 
 
 /**** Footer Section ****/
@@ -1119,6 +1154,32 @@ footer {
 }
 /****** End of Footer @300px max-width media queries *****/
 
+/***** Footer @390 media Queries  ****/
+
+@media only screen and (max-width: 390px) {
+
+    .first-part-socials h2 {
+        font-size: 1.39em;
+    }
+
+    .first-part-apply {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .first-part-apply h2 {
+        font-size: 1.03em;
+    }
+
+    .first-part-apply 
+    .website-url a {
+        padding: .2em 1em;
+        font-size: 1.09em;
+    }
+}
 
 
 /*************** Developers sections   ************************/
@@ -1230,4 +1291,16 @@ footer {
 .developers h1 {
     text-align: center;
     font-size: 1.3em;
+}
+
+
+
+/***** Footer @390 media queries  *****/
+
+@media screen and (max-width: 393){
+
+    .developers h1 {
+        text-align: center;
+        font-size: 1.98em;
+    }
 }
