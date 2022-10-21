@@ -181,7 +181,7 @@ a {
 /* animated logo media queries */
 @media only screen and (max-width: 600px) {
     .mlsa-logo.animated {
-        animation: none;
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
     }
 }
 
@@ -303,6 +303,9 @@ a {
 
 @media only screen and (max-width: 300px) {
 
+    .mlsa-logo.animated {
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    }
 
     #nav ul {
         display: flex;
