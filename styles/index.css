@@ -428,7 +428,7 @@ a {
 @media only screen and (max-width: 412px) {
 
     #nav ul {
-        padding-left: 7.5em;
+        padding-left: 4.5em;
     }
 
     .mlsa-logo-atu {
@@ -1070,7 +1070,7 @@ a {
 @media only screen and (max-width: 412px) {
 
     #memories-img h1 {
-        font-size: 1em;
+        font-size: 1.8em;
         font-weight: 900;
         font-family: 'Montserrat', sans-serif;
     }
