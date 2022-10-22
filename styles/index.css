@@ -659,7 +659,7 @@ a {
 @media only screen and (max-width: 412px) {
 
     #profile h1 {
-        font-size: 2.2em;
+        font-size: 1.8em;
         font-weight: 700;
     }
 
@@ -887,12 +887,16 @@ a {
 /****** Events @412ps media queries *******/
 @media only screen and (max-width: 412px) {
 
+    .card-content h2 {
+        font-size: 1.2em;
+    }
+    
     .collasped-row {
         padding-top: .8em;
     }
 
     .row-events h1 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         padding-top: 2em;
         font-weight: 900;
     }
@@ -918,6 +922,7 @@ a {
     .card-content p {
         padding: .1em .5em;
         font-size: .89em;
+        line-height: 1.5em;
     }
 }  /****** End of Event @412px media queries *****/
 
@@ -1089,6 +1094,12 @@ a {
     .quote-main > p {
         font-size: .99em;
         padding: .8em;
+    }
+
+    #memories-img 
+    .about-quote 
+    .quote-main > small {
+        font-size: 1em;
     }
 
 }
@@ -1355,9 +1366,14 @@ footer {
 /***** Footer @412 Media Queries ******/
 @media only screen and (max-width: 412px) {
 
+    .media-handles ul li > a {
+        font-size: 1em;
+        display: block;
+    }
+
     .first-part-socials h2 {
-        font-size: 1.79em;
-        font-weight: 500;
+        font-size: 1.23em;
+        font-weight: 700;
     }
 
     .media-handles ul {
