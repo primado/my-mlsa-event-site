@@ -759,7 +759,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .flyer-card .card-btn a {
@@ -893,8 +892,9 @@ a {
     }
 
     .row-events h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
         padding-top: 2em;
+        font-weight: 900;
     }
 
     .flyer-card img {
