@@ -1260,6 +1260,7 @@ footer {
     margin: 1em 8em;
     border-radius: 20px;
     border-top: 3px solid #fff;
+    box-shadow: -16px 15px 27px -6px rgba(250,247,250,0.2);
 }
 
 .first-part-apply h2 {
@@ -1492,10 +1493,12 @@ footer {
     display: block;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
+    box-shadow: -16px 14px 21px -6px rgba(250,247,250,0.11);
 }
 
 .dev-flex .dev-one {
   padding: 1em 5em;
+  
 }
 
 .dev-flex .dev-card-body {
@@ -1504,17 +1507,19 @@ footer {
    text-align: center;
    height: 9.8em;
    border-radius: 0 0 15px 15px;
+   box-shadow: -16px 14px 21px -6px rgba(250,247,250,0.11);
 }
 
 .dev-flex .dev-card-body h2 {
-    font-size: 1.3em;
-    padding: .8em;
+    font-size: .99em;
+    padding: .93em;
 
 }
 
 .dev-flex .dev-two {
   display: flex;
   flex-direction: column;
+  
 }
 
 .dev-btn {
