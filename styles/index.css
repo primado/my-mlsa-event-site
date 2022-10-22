@@ -898,13 +898,13 @@ a {
     }
 
     .flyer-card img {
-        max-width: 280px;
+        max-width: 300px;
         display: block;
         object-fit: cover;
     }
 
     .card-content {
-        max-width: 280px;
+        max-width: 300px;
     }
 
     .flyer-card .card-btn  {
