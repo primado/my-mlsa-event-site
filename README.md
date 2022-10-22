@@ -1,4 +1,4 @@
-#My MLSA Event Site
+## My MLSA Event Website
 
 This website was built me by and my friend @Onihani contributed some code.
 
