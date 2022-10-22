@@ -418,6 +418,8 @@ a {
     .mlsa-logo-atu .atu-logo {
         margin-top: .9em;
     }
+
+
 }
 /********* End of Header 390px media queries ******/
 
@@ -426,7 +428,7 @@ a {
 @media only screen and (max-width: 412px) {
 
     #nav ul {
-        padding-left: 2.5em;
+        padding-left: 7.5em;
     }
 
     .mlsa-logo-atu {
@@ -462,16 +464,20 @@ a {
         justify-content: center;
         align-items: center;
         margin-left: -5em;
-        margin-top: -1.5em;
+        margin-top: -1.3em;
 
     }
 
     .mlsa-logo-atu .mlsa-logo {
-        max-width: 40%;
+        max-width: 55%;
     }
 
     .mlsa-logo-atu .atu-logo {
-        max-width: 38%;
+        max-width: 43%;
+    }
+
+    .call-action {
+        padding: 1em 1.5em;
     }
 }
 /****** End of Header @412px Media Queries  ******/
@@ -902,7 +908,7 @@ a {
     }
 
     .flyer-card .card-btn a {
-        padding: .2em 1.1em;
+        padding: .55em 1.1em;
     }
 
     .card-content p {
