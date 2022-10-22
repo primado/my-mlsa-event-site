@@ -150,7 +150,7 @@ a {
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    margin-left: 2em ;
+    margin-left: 2em;
     padding: 1em;
 }
 .mlsa-logo-atu .atu-logo {
@@ -344,7 +344,6 @@ a {
     .hero .hero-text h2 {
         font-size: .99em;
         padding-top: .5em;
-
     }
 
     .hero-text .hero-caption p {
@@ -422,7 +421,60 @@ a {
 }
 /********* End of Header 390px media queries ******/
 
+/****** Header @412px Media Queries *****/
 
+@media only screen and (max-width: 412px) {
+
+    #nav ul {
+        padding-left: 2.5em;
+    }
+
+    .mlsa-logo-atu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .hero-text {
+        padding: 1.9em .68em;
+    }
+
+    #nav .nav-brand h1 {
+        font-size: .78em;
+    }
+
+    .hero .hero-text h1  {
+        font-size: 1.69em;
+    }
+
+    .hero .hero-text h2 {
+        font-size: 1.1em;
+        
+    }
+
+    .hero-text .hero-caption p {
+        font-size: .82em;
+    }
+
+    .mlsa-logo-atu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -5em;
+        margin-top: -1.5em;
+
+    }
+
+    .mlsa-logo-atu .mlsa-logo {
+        max-width: 40%;
+    }
+
+    .mlsa-logo-atu .atu-logo {
+        max-width: 38%;
+    }
+}
+/****** End of Header @412px Media Queries  ******/
 
 
 /******************* Profile Section  ********************/
@@ -589,7 +641,35 @@ a {
     .profile-txt p b {
         font-size: 1.25em;
     }
-} 
+}  /**** End of Profile @390px media queries ****/
+
+
+/***** Profile @412px media queries ****/
+
+@media only screen and (max-width: 412px) {
+
+    #profile h1 {
+        font-size: 2.2em;
+        font-weight: 700;
+    }
+
+    .my-profile img {
+        max-width: 210px;
+        display: block;
+        object-fit: cover;
+    }
+
+    .profile-txt .text-bg {
+        padding: 1.2em;
+    }
+
+    .profile-txt p {
+        font-size: .93em;
+        padding: .5em .5em;
+    }
+
+
+}
 
 
 
@@ -793,7 +873,45 @@ a {
     .flyer-card .card-btn a {
         padding: 1em;
     }
-}
+} /****** End of Events @390px media Queries ******/
+
+/****** Events @412ps media queries *******/
+@media only screen and (max-width: 412px) {
+
+    .collasped-row {
+        padding-top: .8em;
+    }
+
+    .row-events h1 {
+        font-size: 1.2em;
+        padding-top: 2em;
+    }
+
+    .flyer-card img {
+        max-width: 210px;
+        display: block;
+        object-fit: cover;
+    }
+
+    .card-content {
+        max-width: 210px;
+    }
+
+    .flyer-card .card-btn  {
+        padding: 1em 1em;
+    }
+
+    .flyer-card .card-btn a {
+        padding: .2em 1.1em;
+    }
+
+    .card-content p {
+        padding: .1em .5em;
+        font-size: .89em;
+    }
+}  /****** End of Event @412px media queries *****/
+
+
 
 
 
@@ -803,6 +921,13 @@ a {
     /* border: 3px solid red; */
     background-color: #76a0f4;
     width: 100%;
+}
+
+#memories-img h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: .8em;
 }
 
 .admin-img {
@@ -828,7 +953,6 @@ a {
     background-color: #ffc623;
     margin: 0 1em;
     border-radius: 20px;
-    
 }
 
 #memories-img 
@@ -856,6 +980,11 @@ a {
 
 @media only screen and (max-width: 600px) {
 
+    #memories-img h1 {
+        font-size: 2em;
+        font-weight: 900;
+    }
+
     .admin-img {
         display: flex;
         flex-direction: column;
@@ -882,15 +1011,21 @@ a {
         border-radius: 20px;
         text-align: center;
     }
-}
-/******** End of Memories @600 max-width media queries *****/
+} /******** End of Memories @600 max-width media queries *****/
+
 
 /******** Memories @300 max-width media queries *****/
 
 @media only screen and (max-width: 300px) {
 
     #memories-img .about-quote {
-        padding: 1.03em;
+        padding: .7em;
+    }
+
+    #memories-img h1 {
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
     }
 
     #memories-img 
@@ -918,6 +1053,32 @@ a {
 
     #memories-img .about-quote {
         padding: 1.2em;
+    }
+}  /**** End of Memories Media Queries ****/
+
+/******** Memories @412px media Queries *****/
+@media only screen and (max-width: 412px) {
+
+    #memories-img h1 {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .admin-img img {
+        max-width: 210px;
+    }
+
+    #memories-img .about-quote {
+        padding: .5em;
+        margin: 0 .1em;
+    }
+
+    #memories-img 
+    .about-quote 
+    .quote-main > p {
+        font-size: .99em;
+        padding: .8em;
     }
 
 }
@@ -1179,6 +1340,39 @@ footer {
         padding: .2em 1em;
         font-size: 1.09em;
     }
+}  /*****  End of Footer @390px media queries  *****/
+
+/***** Footer @412 Media Queries ******/
+@media only screen and (max-width: 412px) {
+
+    .first-part-socials h2 {
+        font-size: 1.79em;
+        font-weight: 500;
+    }
+
+    .media-handles ul {
+        padding-left: 3.9em;
+    }
+
+    .first-part-apply {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .8em .8em;
+        max-width: 17em;
+    }
+
+    .first-part-apply h2 {
+        font-size: .8em;
+    }
+
+    .first-part-apply 
+    .website-url a {
+        font-size: .99em;
+        padding: .2em .8em;
+    }
+
 }
 
 
