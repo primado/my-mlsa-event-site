@@ -1371,6 +1371,7 @@ footer {
         align-items: center;
         padding: .8em .8em;
         max-width: 17em;
+        margin-left: 1.4em;
     }
 
     .first-part-apply h2 {
