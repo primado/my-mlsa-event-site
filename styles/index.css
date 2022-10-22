@@ -135,6 +135,7 @@ a {
     background-color: #0078d4;
     font-weight: 700;
     margin: 0 0;
+    box-shadow: -5px 7px 19px 2px rgba(245, 243, 243, 0.08);
 }
 
 .call-action a:hover {
@@ -724,7 +725,7 @@ a {
     max-width: 400px;
     display: block;
     object-fit: cover;
-
+    /* box-shadow: -37px 28px 44px -19px rgba(96, 93, 93, 0.44); */
 }
 
 .card-content {
@@ -732,6 +733,11 @@ a {
     /* background-color: rgb(41, 80, 255); */
     border-radius: 0 0 15px 15px;
     background-color: hsl(223, 47%, 23%);
+    /* box-shadow: -37px 28px 44px -19px rgba(20,18,18,0.44); */
+}
+
+.card-content:hover {
+    box-shadow: -37px 28px 44px -19px rgba(20,18,18,0.07);
 }
 
 .card-content h2 {
@@ -741,6 +747,7 @@ a {
     text-align: center;
     padding: .4em 1.5em;
     color: #fff;
+    
     
 }
 
@@ -1186,6 +1193,7 @@ footer {
     margin: 1em 8em;
     border-radius: 20px;
     border-top: 3px solid #fff;
+    box-shadow: -5px 10px 19px 2px rgba(244, 243, 243, 0.25);
 }
 
 .first-part-apply h2 {
@@ -1388,6 +1396,7 @@ footer {
         padding: .8em .8em;
         max-width: 17em;
         margin-left: 1.4em;
+        
     }
 
     .first-part-apply h2 {
@@ -1411,14 +1420,15 @@ footer {
     margin: .8em;
     font-family: 'Poppins', sans-serif;
     border-radius: 10px 10px 0 0;
+   
 }
 
 .developers h1 {
     text-align: center;
     color: #fff;
-    padding: 1em;
-    font-size: 2em;
-    font-weight: 900;
+    padding: .5em;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 .collasped-devs .dev-flex {
@@ -1435,6 +1445,7 @@ footer {
     display: block;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
+    box-shadow: -4px 6px 10px 1px rgba(232,216,216,0.3);
 }
 
 .dev-flex .dev-one {
@@ -1448,10 +1459,11 @@ footer {
    text-align: center;
    height: 9.8em;
    border-radius: 0 0 15px 15px;
+   box-shadow: -4px 6px 10px 1px rgba(239, 235, 235, 0.3);
 }
 
 .dev-flex .dev-card-body h2 {
-    font-size: 1.3em;
+    font-size: 1.05em;
     padding: .8em;
 
 }
@@ -1518,10 +1530,17 @@ footer {
 
 /***** Footer @390 media queries  *****/
 
-@media screen and (max-width: 393){
+@media screen and (max-width: 390px){
 
     .developers h1 {
         text-align: center;
-        font-size: 1.98em;
+        font-size: 1em;
     }
 }
+
+/* @media only screen and (max-width:412px) {
+
+    .developers h1 {
+        font
+    }
+} */
