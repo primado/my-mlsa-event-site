@@ -477,7 +477,11 @@ a {
     }
 
     .call-action {
-        padding: 1em 1.5em;
+        padding: 1.2em 1.5em;
+    }
+
+    .call-action a {
+        padding: .78em 1.2em;
     }
 }
 /****** End of Header @412px Media Queries  ******/
