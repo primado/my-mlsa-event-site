@@ -120,7 +120,7 @@ header {
 }
 
 .hamburger-menu .btn:hover {
-  background-color: #58c8dc;
+  background-color: #f6f8f9;
   color: #fff;
 }
 
@@ -1031,6 +1031,42 @@ a {
 #memories-img h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  font-size: 2.4em;
+  padding-bottom: 0.8em;
+}
+
+.admin-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.swiper-slide {
+  border: 2px solid #fff;
+
+}
+
+.admin-img img {
+  width: 500px;
+  height: auto;
+  margin: 1.5em;
+  border: 10px solid #ffc623;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.swiper-slide {
+  padding: .5em;
+}
+
+
+/* #memories-img h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
   font-size: 3em;
   padding-bottom: 0.8em;
 }
@@ -1038,7 +1074,6 @@ a {
 .admin-img {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 1rem;
@@ -1052,7 +1087,7 @@ a {
 }
 
 .admin-img img {
-  width: 390px;
+  width: 500px;
   height: auto;
   margin: 1.5em;
   border: 10px solid #ffc623;
@@ -1062,17 +1097,23 @@ a {
   border-radius: 20px;
 }
 
+.swiper-slide {
+  padding: .5em;
+}
+
+
+
 #memories-img .about-quote {
   border: 10px solid rgba(146, 58, 212, 0.8);
-  padding: 3.5em;
+  padding: 2em;
   background-color: #ffc623;
-  margin: 0 1em;
+  margin: 0 3em;
   border-radius: 20px;
 }
 
 #memories-img .about-quote .quote-main > p {
   color: #000;
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
@@ -1084,9 +1125,9 @@ a {
   padding: 2em 0;
 }
 
-/**** Memories IMG Media Queries  ****/
+  /**** Memories IMG Media Queries  ****/
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #memories-img h1 {
     font-size: 2em;
     font-weight: 900;
@@ -1102,7 +1143,7 @@ a {
   .admin-img img {
     display: block;
     object-fit: cover;
-    max-width: 100%;
+    max-width: 200px;
     border-radius: 20px;
   }
 
@@ -1116,11 +1157,13 @@ a {
     border-radius: 20px;
     text-align: center;
   }
-} /******** End of Memories @600 max-width media queries *****/
+}  */
+
+/******** End of Memories @600 max-width media queries *****/
 
 /******** Memories @300 max-width media queries *****/
 
-@media only screen and (max-width: 300px) {
+/* @media only screen and (max-width: 300px) {
   #memories-img .about-quote {
     padding: 0.7em;
   }
@@ -1144,7 +1187,7 @@ a {
 
 /****** Memeries @390 median queries ****/
 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
   .admin-img img {
     max-width: 280px;
   }
@@ -1152,10 +1195,11 @@ a {
   #memories-img .about-quote {
     padding: 1.2em;
   }
-} /**** End of Memories Media Queries ****/
+}  */
+/**** End of Memories Media Queries ****/
 
 /******** Memories @412px media Queries *****/
-@media only screen and (max-width: 412px) {
+/* @media only screen and (max-width: 412px) {
   #memories-img h1 {
     font-size: 1.8em;
     font-weight: 900;
@@ -1179,7 +1223,7 @@ a {
   #memories-img .about-quote .quote-main > small {
     font-size: 1em;
   }
-}
+}  */
 
 /**** Footer Section ****/
 
